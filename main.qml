@@ -7,10 +7,9 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
-    MediaPlayer {
+    SoundEffect {
         id: playMusic
         source: Qt.resolvedUrl("qrc:/qmlsoundeffect/click.wav")
-        audioOutput: AudioOutput {}
     }
     MouseArea {
         anchors.fill: parent
